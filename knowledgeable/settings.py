@@ -85,11 +85,12 @@ WSGI_APPLICATION = 'knowledgeable.wsgi.application'
 
 DATABASES = {
     'default': {
+        
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'YOUR DATABASE NAME',
-        'HOST': 'YOU HOST',
-        'USER': 'YOU USER',
-        'PASSWORD': 'YOUR PASSWORD'
+        'NAME': 'knowledgeable',
+        'HOST': 'localhost',
+        'USER': 'postgres',
+        'PASSWORD': 'ghostrider12'
     }
 }
 
